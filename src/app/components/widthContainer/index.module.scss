@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 20px;
+    @media screen and (min-width: 768px) {
+        padding-inline: 36px;
+    }
+}
+
+.widthContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    max-width: 1224px;
+}

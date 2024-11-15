@@ -1,0 +1,20 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFF;
+    align-items: center;
+    height: 64px;
+
+}
+.headerOptions{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    list-style: none;
+
+    .option{
+        color: #FFF;
+    }
+}
