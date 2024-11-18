@@ -1,0 +1,26 @@
+#aboutProjetcContainer {
+    display: flex;
+    gap: 10px;
+
+    .aboutProjetcContent {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .title {
+
+        }
+
+        .aboutProjetcCard {
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #0000005e;
+            padding: 10px;
+            transition: transform 0.25s ease-in-out;
+        }
+
+        .aboutProjetcCard:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}

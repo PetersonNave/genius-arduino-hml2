@@ -1,0 +1,29 @@
+.students {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+#students__container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .students {
+        &__description {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+
+            a {
+                font-size: 30px;
+                transition: transform 0.25s ease-in-out;
+            }
+
+            a:hover {
+                color: rgba(0, 170, 153, 0.8);
+            }
+        }
+    }
+}
