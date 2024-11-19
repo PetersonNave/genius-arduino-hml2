@@ -7,35 +7,35 @@ const students = [
     {
         name: 'Maria Gabriela Damásio Bezerra',
         image: '/gabi.png',
-        link: 'https://www.linkedin.com/in/gabriela-dam%C3%A1sio-719b6b323/',
+        link: 'https://github.com/gabidamasio',
         surname: "Gabi",
-        linkedin: "/"
+        linkedin: "https://www.linkedin.com/in/gabriela-dam%C3%A1sio-719b6b323"
     },
     {
         name: 'Paulo Victor Gomes Aguiar',
         image: '/paulo.png',
-        link: '',
+        link: 'https://github.com/pauloaguiar99',
         surname: "PV",
-        linkedin: "/"
+        linkedin: "https://br.linkedin.com/in/paulo-aguiarmv"
     },
     {
         name: 'Peterson Jesus Feitosa de Melo',
         image: '/peterson.png',
-        link: 'https://www.linkedin.com/in/peterson-melo/',
+        link: 'https://github.com/PetersonNave',
          surname: "Pet",
          linkedin: "https://www.linkedin.com/in/peterson-melo/"
     },
     {
         name: 'Rayane Cavalcanti da Silva',
         image: '/rayane.png',
-        link: 'https://www.linkedin.com/in/rayane-cavalcanti-da-silva-31aa79243/',
+        link: 'https://github.com/Rayane32',
          surname: "Ray",
          linkedin: "https://www.linkedin.com/in/rayane-cavalcanti-da-silva-31aa79243/"
     },
     {
         name: 'Victor César Matias da Silva',
         image: '/matias.png',
-        link: 'https://www.linkedin.com/in/vcms/',
+        link: 'https://github.com/victorrmatiass',
          surname: "Matias",
          linkedin: "https://www.linkedin.com/in/vcms/"
     }

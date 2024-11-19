@@ -48,7 +48,7 @@ const ArduinoExplainedArea = () =>{
         },
         {
           "src": "/arduino-montagem/010.jpg",
-          "title": "Adicionando resistores de 220Ω para iniciar a construção dos circuitos dos LEDs",
+          "title": "Adicionando resistores de 300Ω para iniciar a construção dos circuitos dos LEDs",
         },
         {
           "src": "/arduino-montagem/011.jpg",
@@ -64,7 +64,7 @@ const ArduinoExplainedArea = () =>{
         },
         {
           "src": "/arduino-montagem/014.jpg",
-          "title": "Adicionando o buzzer, conectando seu terminal negativo à trilha negativa superior da protoboard em série com um resistor de 220Ω e seu terminal positivo à porta digital 8 do Arduino UNO.",
+          "title": "Adicionando o buzzer, conectando seu terminal negativo à trilha negativa superior da protoboard em série com um resistor de 300Ω e seu terminal positivo à porta digital 8 do Arduino UNO.",
         }
       ]
 
