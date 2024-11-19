@@ -61,10 +61,7 @@ const Home = () => {
           border: '5px solid rgba(0, 170, 153, 0.8)',
           marginBottom: '48px'
         }}>
-          <video loop controls height="500px">
-            <source src="/explicando-o-arduino.mp4" type="video/mp4" />
-            Seu navegador não suporta vídeos.
-          </video>
+       <iframe width="900px" height="500px" src="https://www.youtube.com/embed/VwEwNmzxp3M?si=z3bLR3LRFCFhIH4b" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </SectionContainer>
         <ArduinoExplainedArea/>
