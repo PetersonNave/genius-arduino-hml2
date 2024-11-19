@@ -11,12 +11,12 @@ const Home = () => {
 
   return (
     <>
-      <NameProjectSection title="GENIUS GAME!"></NameProjectSection>
+      <NameProjectSection title="GENIUS GAME! 🤖"></NameProjectSection>
       <hr />
       <BaseSection
         id="introducao"
         bgColor="#e0e0e0"
-        tag="caiu de paraquedas?"
+        tag="caiu de paraquedas? 🪂"
         title="Antes de tudo!"
         description="Este projeto é uma aplicação prática na área de eletrônica e programação para iniciantes e entusiastas em Arduino. Ele simula um jogo de memorização onde LEDs coloridos representam as cores do jogo original, e os botões servem para reproduzir as sequências geradas pelo Arduino. A cada nível concluído, o desafio aumenta, exigindo mais do jogador e promovendo o aprendizado contínuo de uma forma divertida e envolvente."
         component={AboutProjectSection}
@@ -25,7 +25,7 @@ const Home = () => {
       <BaseSection
         id="como-jogar"
         bgColor="rgba(229, 210, 57, 0.2)"
-        tag="Tá! E como jogar na prática?!"
+        tag="Tá! E como jogar?! 🎮"
         title="Confira a explicação que fizemos para você!"
         description="Nossa designer Gabi te mostra o passo a passo de como funciona o nosso jogo. Saca só!"
       ></BaseSection>
@@ -48,7 +48,7 @@ const Home = () => {
       <BaseSection
         id="como-funciona"
         bgColor="rgba(86, 218, 59, 0.2)"
-        tag="Mão na massa!"
+        tag="Mão na massa! 🤖"
         title="Veja um pouco de como fizemos a montagem do nosso projeto!"
         description="Nosso desenvolvedor Matias te mostra detalhadamente como o protótipo foi feito, confira!"
       ></BaseSection>
@@ -68,7 +68,7 @@ const Home = () => {
         <hr />
       <BaseSection
       bgColor="#e0e0e0"
-        tag="desafios e lições"
+        tag="desafios e lições 📝"
         title="Nossa equipe venceu muitos desafios nessa jornada, se liga!"
         split
         description={`No início, enfrentamos muitas dificuldades para decidir o que, de fato, iríamos fazer. Precisávamos de um projeto que fosse simples e interessante. Com o tempo, as ideias dos integrantes foram convergindo, e assim nasceu o nosso projeto. Depois disso, enfrentamos alguns desafios técnicos, especialmente relacionados à prototipação com Arduino e programação em geral. No entanto, a equipe, com muita resiliência, conseguiu superar essas questões. A principal lição aprendida foi o reforço da ideia de que "a união faz a força". Conseguimos combinar os conhecimentos de todos, em áreas distintas, para realizar este projeto. Todos ajudaram uns aos outros, e, juntos, alcançamos um resultado final satisfatório`}
@@ -77,7 +77,7 @@ const Home = () => {
       <BaseSection
       id="equipe"
       bgColor="rgba(208, 47, 47, 0.2)"
-        tag="desenvolvedores"
+        tag="desenvolvedores 🧑🏽‍💻"
         title="Confira nossa equipe!"
         description="Equipe super engajada e responsável pelo desenvolvimento do projeto."
       ></BaseSection>
