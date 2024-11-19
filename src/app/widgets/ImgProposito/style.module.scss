@@ -1,0 +1,55 @@
+.box_img {
+	width: 100%;
+	height: 250px;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.img {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.img div {
+	height: 100%;
+	width: 100%;
+	position: absolute !important;
+}
+
+.img img {
+	object-fit: contain;
+}
+
+.disabled {
+	opacity: 0;
+	z-index: -1;
+	transition: opacity 0.5s linear;
+}
+
+.abled {
+	z-index: 1;
+	opacity: 1;
+	transition: opacity 0.5s linear;
+}
+
+@media (min-width: 768px) {
+	.box_img {
+		height: 100%;
+	}
+	.img {
+		max-width: 400px;
+	}
+	.img img {
+		object-fit: cover;
+		position: absolute;
+	}
+}
+
+@media (min-width: 1366px) {
+	.img {
+		max-width: 100%;
+	}
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from './index.module.scss'
 
-const SectionContainer = ({children, bgColor}:{children: any, bgColor?: string}) =>{
-    return <section style={{...(bgColor && {backgroundColor: bgColor})}} className={styles.container}>
-        <div className={styles.widthContainer}>
+const SectionContainer = ({children, bgColor, className, id}:{children: any, bgColor?: string, className?: any, id?: string}) =>{
+    return <section id={id?id:""} style={{...(bgColor && {backgroundColor: bgColor})}} className={styles.container}>
+        <div className={`${styles.widthContainer} ${className && className}`}>
         {children}
         </div>
     </section>  

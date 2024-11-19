@@ -2,30 +2,33 @@
     display: flex;
     width: 100%;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
     padding-block: 20px;
 }
 
 .tag{
     width: fit-content;
-    padding: 2px 8px;
+    padding: 2px 16px;
     background-color: #0A9C;
-    color: #FFF;
-    font-weight: 500;
-    font-size: 0.75rem;
+    color: #1f1f1f;
+    font-weight: 700;
+    font-size: 1rem;
     border-radius: 999px;
 
 }
 
 .title{
-    font-size: 28px;
+    font-size: 38px;
     font-weight: bold;
     max-width: 50%;
 }
 
 .description{
     color: #1F1F1F;
-    max-width: 50%;
+    max-width: 70%;
+    font-size: 20px;
+    line-height: 150%;
+    margin-top: 8px;
 }
 
 .component {

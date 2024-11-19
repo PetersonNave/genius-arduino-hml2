@@ -24,3 +24,63 @@
     }
 
 }
+
+.tabHeader{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+
+   
+}
+
+.tabTitle{
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    padding-inline: 15px;
+    transition: all ease 0.1s;
+    font-weight: bold;
+    font-size: 28px;
+    border: none;
+    outline: none;
+    
+    &:nth-child(1){
+        background-color: rgba(#56da3b, 0.2);
+        &[aria-selected="true"] {
+            background-color: rgba(#56da3b, 1);
+            border-bottom: 4px solid #1F1F1F;
+        }
+    }
+    &:nth-child(2){
+        background-color:  rgba(#d02f2f, 0.2);
+        &[aria-selected="true"] {
+            background-color:  rgba(#d02f2f, 1);
+            border-bottom: 4px solid #1F1F1F;
+        }
+    }
+    &:nth-child(3){
+        background-color: rgba(#e5d239, 0.2);
+        &[aria-selected="true"] {
+            background-color: rgba(#e5d239, 1);
+            border-bottom: 4px solid #1F1F1F;
+        }
+    }
+   
+}
+
+.tabContent{
+    padding-inline: 15px;
+    margin-top: 24px;
+    font-family: "Open Sans";
+    font-size: 18px;
+    max-width: 70%;
+    line-height: 150%;
+    p{
+        font-weight: 500;
+        margin-top: 10px;
+    }
+}

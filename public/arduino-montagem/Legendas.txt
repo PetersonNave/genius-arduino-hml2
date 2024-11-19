@@ -1,0 +1,27 @@
+01 - Tela em branco.
+
+02 - Adicionando o Arduino UNO.
+
+03 - Adicionando a protoboard.
+
+04 - Adicionando cinco botões em sequência na protoboard.
+
+05 - Adicionando resistores de 300Ω aos terminais 2a dos botões.
+
+06 - Conectando os resistores dos botões à porta GND (Terra) do Arduino UNO através da trilha negativa inferior da protoboard.
+
+07 - Adicionando jumpers dos terminais 1a dos botões à trilha positiva inferior da protoboard.
+
+08 - Conectando a trilha positiva inferior da protoboard à porta de 5V do Arduino UNO.
+
+09 - Conectando os botões 1, 2, 3, 4 e 5 às respectivas portas digitais 13, 12, 11, 10 e 9 do Arduino UNO.
+
+10 - Adicionando resistores de 220Ω para iniciar a construção dos circuitos dos LEDs.
+
+11 - Conectando os resistores dos LEDs à porta GND (Terra) do Arduino UNO através da trilha negativa superior da protoboard.
+
+12 - Adicionando os LEDs em série com seus respectivos resistores.
+
+13 - Conectando os LEDs 1, 2, 3, 4 e 5 às respectivas portas digitais 7, 6, 5, 4 e 3 do Arduino UNO.
+
+14 - Adicionando o buzzer, conectando seu terminal negativo à trilha negativa superior da protoboard em série com um resistor de 220Ω e seu terminal positivo à porta digital 8 do Arduino UNO.

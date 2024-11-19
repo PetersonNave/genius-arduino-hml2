@@ -13,17 +13,69 @@
     .students {
         &__description {
             display: flex;
-            gap: 10px;
             align-items: center;
-
+            flex-direction: column;
             a {
                 font-size: 30px;
                 transition: transform 0.25s ease-in-out;
             }
 
             a:hover {
-                color: rgba(0, 170, 153, 0.8);
+                color: #0b69c7;
             }
         }
+    }
+}
+
+.studentsImageContainer{
+    position: relative;
+}
+.githubIcon{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    border-radius: 100%;
+    transition: all ease 0.2s;
+    &:hover{
+        opacity: 0.7;
+        background: #e0e0e0;
+    }
+}
+
+.studentName{
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin: 0;
+    svg{
+        height: 20px;
+        width: 20px;
+    }
+}
+.studentSurname{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #3d3d3d;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    animation: namePop ease 3s infinite;
+}
+
+@keyframes namePop {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
     }
 }
