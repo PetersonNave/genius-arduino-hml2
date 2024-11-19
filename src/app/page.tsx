@@ -82,7 +82,7 @@ const Home = () => {
         description="Equipe super engajada e responsável pelo desenvolvimento do projeto."
       ></BaseSection>
       <StudentsSection />
-      <footer style={{height: '56px', display: 'flex', justifyContent: 'center', alignItems: 'center', background: "#1f1f1f", color: "#FFF", fontWeight: 'bold', fontSize: "2rem"}}>VOLTE SEMPRE ❤️</footer>
+      <footer style={{paddingTop: "20px", height: 'fit-content', display: 'flex', justifyContent: 'center', alignItems: 'flex-end', background: "#1f1f1f", color: "#FFF", fontWeight: 'bold', fontSize: "2rem"}}>VOLTE SEMPRE ❤️</footer>
     </>
   );
 };

@@ -37,10 +37,10 @@ const headerOptions: IHeaderOptions[] = [
 
 const Header = () => {
     return (
-        <header>
+        <header id="header-top">
             <SectionContainer bgColor="#1F1F1F">
                 <div className={styles.content}>
-                    <a href="/"><span>GENIUS</span></a>
+                    <a href="/"><span>GENIUS 🤖</span></a>
                     <nav>
                         <ul className={styles.headerOptions}>
                             {headerOptions.map((item, key) => {
