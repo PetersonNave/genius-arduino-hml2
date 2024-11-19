@@ -172,7 +172,7 @@ void tocarSomLED(int led) {
 
 // Função para tocar o som de acerto
 void tocarSomAcerto() {
-  tone(buzzer, 980, 500);  // Som de acerto (880 Hz)
+  tone(buzzer, 980, 500);  // Som de acerto (980 Hz)
   delay(500);
   noTone(buzzer);
 }
