@@ -1,0 +1,30 @@
+.arduinoExplainedContainer{
+    height: 500px;
+    position: relative;
+}
+
+.downloadBtn{
+    text-decoration: none;
+    height: 56px;
+    font-size: 24px;
+    margin-left: 50px;
+    padding-inline: 18px;
+    border-radius: 999px;
+    background-color: #198754;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: bold;
+    color: #E0E0E0;
+    transition: all ease 0.2s;
+    svg{
+        width: 32px;
+        height: 32px;
+    }
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
