@@ -297,12 +297,50 @@ void resetarJogo() {
       <BaseSection  bgColor="#f4f5f7" title="O que usamos no desenvolvimento?" description="Veja a seguir quais aplicativos, plataformas ou ferramentas foram utilizados no projeto!"/>
       <SectionContainer bgColor="#f4f5f7">
       <ul style={{marginLeft: '20px', marginBottom: '28px', lineHeight: "180%"}}>
+        <h4>Softwares e Plataformas:</h4>
         <li>Nest.Js para o desenvolvimento do site;</li>
         <li>GitHub para versionamento do código;</li>
         <li>Vercel para hospedagem do site;</li>
         <li>Capcut para a edição dos vídeos-tutoriais;</li>
         <li>Arduíno IDE para o desenvolvimento do código para o protótipo;</li>
-        <li>Kit Arduíno Básico que contém: ...</li>  
+        <br />
+        <h4>Hardware:</h4>  
+        <li>5 Botões de cores arbitrárias</li>
+        <li>5 LEDs de cores arbitrárias</li>
+        <li>11 Resistores de 300ohms</li>
+        <li>1 Arduino UNO R3</li>
+        <li>1 Protoboard de 400 pontos</li>
+        <li>Fios para as conexões</li>
+        <li>1 Buzzer</li>
+        <br />
+        <h4>Materiais utilizados para a decoração:</h4>
+        <li>
+        1 caixa de dimensões 14 x 11 (para a base do jogo)
+        </li>
+        <li>
+        1 caixa de dimensões 17 x 14 (ou levemente maior que a caixa usada de base, para fazer a tampa do jogo)
+        </li>
+        <li>
+        1 suporte esponjoso de dimensões 11 x 6 (par elevar a protoboard do jogo e dar melhor acesso aos botões)
+        </li>
+        <li>
+        1 folha de eva preta
+        </li>
+        <li>
+        1 folha de eva vermelha
+        </li>
+        <li>
+        1 folha de eva amarela
+        </li>
+        <li>
+        1 folha de eva verde
+        </li>
+        <li>
+        cola quente
+        </li>
+        <li>
+        tesoura
+        </li>
       </ul>
       </SectionContainer>
       <hr/>
